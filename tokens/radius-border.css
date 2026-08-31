@@ -1,0 +1,16 @@
+:root{
+  /* Near-square. The brand is editorial, not app-like: no pill cards, no 16px blobs. */
+  --radius-none:0px;
+  --radius-xs:1px;
+  --radius-sm:2px;
+  --radius-md:3px;
+  --radius-round:999px;   /* circular logo badge and avatars ONLY */
+
+  --border-hairline:1px;
+  --border-rule:1px;
+  --border-emphasis:2px;
+
+  --rule-hairline:1px solid var(--line-hairline);
+  --rule-brass:1px solid var(--line-accent);
+  --rule-brass-soft:1px solid var(--line-accent-soft);
+}

@@ -1,0 +1,12 @@
+{
+  "cleanUrls": false,
+  "rewrites": [
+    { "source": "/", "destination": "/ui_kits/website/index.html" },
+    { "source": "/services", "destination": "/ui_kits/website/service.html" },
+    { "source": "/data.js", "destination": "/ui_kits/website/data.js" },
+    { "source": "/app.page.jsx", "destination": "/ui_kits/website/app.page.jsx" },
+    { "source": "/sections.page.jsx", "destination": "/ui_kits/website/sections.page.jsx" },
+    { "source": "/sections-2.page.jsx", "destination": "/ui_kits/website/sections-2.page.jsx" },
+    { "source": "/service-page.page.jsx", "destination": "/ui_kits/website/service-page.page.jsx" }
+  ]
+}

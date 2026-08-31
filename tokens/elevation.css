@@ -1,0 +1,12 @@
+:root{
+  /* Elevation is carried by value + hairline, not by drop shadow.
+     Only overlays (lightbox, sticky bar) get a real shadow. */
+  --shadow-none:none;
+  --shadow-bar:0 -1px 0 var(--line-accent-soft),0 -12px 32px rgba(0,0,0,.55);
+  --shadow-overlay:0 24px 80px rgba(0,0,0,.7);
+  --shadow-image:0 1px 0 rgba(255,255,255,.04);
+
+  --grain-opacity:.045; /* @kind other */
+  --vignette:radial-gradient(120% 90% at 50% 30%,transparent 40%,rgba(0,0,0,.55) 100%); /* @kind color */
+  --blur-bar:saturate(140%) blur(14px); /* @kind other */
+}

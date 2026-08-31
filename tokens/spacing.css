@@ -1,0 +1,22 @@
+:root{
+  --space-2:2px; --space-4:4px; --space-6:6px; --space-8:8px; --space-12:12px;
+  --space-16:16px; --space-20:20px; --space-24:24px; --space-32:32px;
+  --space-40:40px; --space-48:48px; --space-64:64px; --space-80:80px;
+  --space-96:96px; --space-128:128px; --space-160:160px;
+
+  /* Semantic rhythm — the brand runs on heavy negative space */
+  --gutter-mobile:24px;
+  --gutter-tablet:48px;
+  --gutter-desktop:80px;
+  --measure:64ch;              /* max body line length */
+  --measure-narrow:46ch;
+  --section-pad-y:clamp(80px,12vw,160px);
+  --section-pad-y-tight:clamp(56px,8vw,96px);
+  --stack-tight:12px;
+  --stack:24px;
+  --stack-loose:48px;
+  --content-max:1320px;
+  --content-max-narrow:820px;
+  --tap-min:48px;              /* never below 44px */
+  --bar-height:64px;           /* sticky booking bar */
+}

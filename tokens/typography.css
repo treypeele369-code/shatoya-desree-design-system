@@ -1,0 +1,47 @@
+:root{
+  --font-display:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --font-ui:"Jost","Helvetica Neue",Arial,sans-serif;
+  --font-mono:ui-monospace,"SFMono-Regular",Menlo,monospace;
+
+  /* Display scale — high-contrast serif, fluid mobile→desktop */
+  --size-display-1:clamp(3rem,11vw,7.5rem);
+  --size-display-2:clamp(2.5rem,7vw,4.75rem);
+  --size-display-3:clamp(2rem,4.5vw,3.25rem);
+  --size-quote:clamp(1.625rem,3.6vw,2.75rem);
+  --size-title:1.5rem;
+
+  /* Interface / body scale — neutral sans */
+  --size-body-lg:1.125rem;
+  --size-body:1rem;
+  --size-body-sm:.9375rem;
+  --size-label:.75rem;     /* small caps, letterspaced */
+  --size-micro:.6875rem;
+
+  --weight-display-light:300;
+  --weight-display:400;
+  --weight-display-medium:500;
+  --weight-ui:400;
+  --weight-ui-medium:500;
+  --weight-ui-semibold:600;
+
+  --leading-display:1.02;
+  --leading-heading:1.14;
+  --leading-quote:1.28;
+  --leading-body:1.72;     /* generous, per brand */
+  --leading-tight:1.4;
+
+  --tracking-display:-0.015em;
+  --tracking-heading:-0.005em;
+  --tracking-body:0;
+  --tracking-label:0.22em; /* small-caps labels are heavily letterspaced */
+  --tracking-button:0.16em;
+  --tracking-wordmark:0.34em;
+
+  /* Semantic type roles */
+  --type-hero:var(--weight-display-light) var(--size-display-1)/var(--leading-display) var(--font-display);
+  --type-section:var(--weight-display-light) var(--size-display-2)/var(--leading-heading) var(--font-display);
+  --type-subsection:var(--weight-display) var(--size-display-3)/var(--leading-heading) var(--font-display);
+  --type-quote:italic var(--weight-display-light) var(--size-quote)/var(--leading-quote) var(--font-display);
+  --type-body:var(--weight-ui) var(--size-body)/var(--leading-body) var(--font-ui);
+  --type-label:var(--weight-ui-medium) var(--size-label)/1 var(--font-ui);
+}
